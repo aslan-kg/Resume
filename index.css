@@ -1,0 +1,50 @@
+/*the universal ruleset*/
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    /*padding and width is used to abjust the placement of the container*/
+    padding: 2em;
+    padding-top: 3.5em;
+    width: 70%;
+    margin: 0 auto; /*centers the container*/
+    background-color: rgb(90, 93, 113);
+}
+/*the main container*/
+.container{
+    background-color: rgb(228, 231, 255);
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(43, 57, 106);
+}
+/*header and h1 are used for the main title of the page */
+header{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    border-bottom: black solid 2px; /*makes darklines for the page*/
+}
+/*unique properts for the job title section*/
+.job-title{
+    margin-bottom: 1.5em;
+    font-weight: bolder; 
+}
+/*unique properts for the job date section*/
+.job-date{
+    font-style: italic;
+    color: #666;
+}
+/*rulesets for all lists*/
+ul{
+    padding: 1em;
+    padding-left: 2em;
+    list-style: square;
+}
+/*over-rides the ul rules for the skill list.*/
+.skills-list{
+    list-style: none;
+}
